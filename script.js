@@ -21,5 +21,5 @@ const setTime = () => {
     secondsCount.textContent = seconds;
 
 }
-
+setTime()
 setInterval(setTime, 1000)
